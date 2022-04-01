@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div align="center">
+        <h1 class="game-name">Mini Game</h1>
+        <p class="name">Lucky Number</p>
+        <p class="slogan">Gift Every Day</p>
+        <div class="input-number">
+            <p class="title">Pick your number</p>
+            <input class="choice" type="number" min="0" max="9" id="num1">
+            <input class="choice" type="number" min="0" max="9" id="num2">
+            <input class="choice" type="number" min="0" max="9" id="num3">
+            <input class="choice" type="number" min="0" max="9" id="num4">
+            <input class="choice" type="number" min="0" max="9" id="num5">
+            <input class="choice" type="number" min="0" max="9" id="num6">
+            <br>
+            <button type="submit" class="btn-random" onclick="return random_number()"><img src="./dices.png" width="20px"> Random Number</button>
+            <br>
+            <button type="submit" class="btn-submit" onclick="return check_number()">Confirm</button>
+        </div>
+    </div>
+</body>
+
+</html>
